@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1C086"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#101010"
+        android:text="Calculate your"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textStyle="italic"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#101010"
+        android:text="Age"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textStyle="italic"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#101010"
+        android:text="in minutes"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textStyle="italic"
+        android:textSize="30sp"
+        />
+    <Button
+        android:id="@+id/btnselect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        android:textColor="@color/white"
+        android:text="select date"
+        />
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#101010"
+        android:text="30.05.2022"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#101010"
+        android:text="selected date"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#101010"
+        android:text="14000000"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#12130E"
+        android:text="selected date"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textSize="30sp"
+        />
+</LinearLayout>
